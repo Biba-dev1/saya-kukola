@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SAYA KUKOLA | Премиальное пространство красоты</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Montserrat',sans-serif;
+    background:#0A0A0A;
+    color:#fff;
+    line-height:1.8;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:
+    linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+    url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1800&q=80');
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-family:'Playfair Display',serif;
+    font-size:90px;
+    color:#D4AF37;
+    letter-spacing:4px;
+}
+
+.hero h2{
+    font-size:24px;
+    font-weight:300;
+    margin:20px 0;
+}
+
+.hero p{
+    color:#d5d5d5;
+    max-width:700px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    background:#D4AF37;
+    color:#000;
+    padding:16px 38px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    padding:100px 0;
+}
+
+.title{
+    text-align:center;
+    font-family:'Playfair Display',serif;
+    font-size:52px;
+    color:#D4AF37;
+    margin-bottom:25px;
+}
+
+.subtitle{
+    max-width:850px;
+    margin:auto;
+    text-align:center;
+    color:#cfcfcf;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:60px;
+}
+
+.card{
+    background:#151515;
+    border:1px solid #242424;
+    border-radius:20px;
+    padding:30px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#D4AF37;
+}
+
+.card h3{
+    color:#D4AF37;
+    margin-bottom:15px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:50px;
+}
+
+.feature{
+    background:#151515;
+    padding:25px;
+    border-radius:15px;
+    border:1px solid #222;
+}
+
+.contact{
+    text-align:center;
+    background:#111;
+}
+
+.contact p{
+    margin:12px 0;
+    font-size:18px;
+}
+
+footer{
+    padding:30px;
+    text-align:center;
+    border-top:1px solid #222;
+    color:#999;
+}
+
+.gold{
+    color:#D4AF37;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:52px;
+}
+
+.hero h2{
+    font-size:18px;
+}
+
+.title{
+    font-size:38px;
+}
+
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero container">
+
+        <div>
+            <h1>SAYA KUKOLA</h1>
+
+            <h2>Премиальное пространство красоты в Караганде</h2>
+
+            <p>
+                Красота. Стиль. Совершенство.
+                Мы создаём образы, которые подчёркивают вашу
+                индивидуальность и уверенность.
+            </p>
+
+            <a href="https://wa.me/77088219295" class="btn">
+                Записаться в WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+</header>
+
+<section>
+    <div class="container">
+
+        <h2 class="title">О студии</h2>
+
+        <p class="subtitle">
+            SAYA KUKOLA — современное пространство красоты,
+            где профессионализм встречается с эстетикой.
+            Наши мастера имеют более <span class="gold">8 лет опыта работы</span>,
+            постоянно совершенствуют свои навыки и следят за новыми тенденциями
+            индустрии красоты.
+        </p>
+
+    </div>
+</section>
+
+<section>
+
+    <div class="container">
+
+        <h2 class="title">Наши услуги</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Наращивание ресниц</h3>
+                <p>Идеальный объём, длина и выразительный взгляд.</p>
+            </div>
+
+            <div class="card">
+                <h3>Оформление бровей</h3>
+                <p>Коррекция формы, окрашивание и гармоничный образ.</p>
+            </div>
+
+            <div class="card">
+                <h3>Маникюр и педикюр</h3>
+                <p>Безупречный уход и идеальное покрытие.</p>
+            </div>
+
+            <div class="card">
+                <h3>Макияж</h3>
+                <p>Дневной, вечерний и праздничный образ.</p>
+            </div>
+
+            <div class="card">
+                <h3>Причёски и укладки</h3>
+                <p>Современные решения для любого события.</p>
+            </div>
+
+            <div class="card">
+                <h3>Уходовые процедуры</h3>
+                <p>Профессиональный уход и забота о красоте.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="container">
+
+        <h2 class="title">Почему выбирают нас</h2>
+
+        <div class="features">
+
+            <div class="feature">✔ Более 8 лет опыта</div>
+            <div class="feature">✔ Профессиональные мастера</div>
+            <div class="feature">✔ Премиальные материалы</div>
+            <div class="feature">✔ Современные техники</div>
+            <div class="feature">✔ Высокие стандарты стерильности</div>
+            <div class="feature">✔ Индивидуальный подход</div>
+            <div class="feature">✔ Комфортная атмосфера</div>
+            <div class="feature">✔ Удобное расположение</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="container">
+
+        <h2 class="title">Более 8 лет опыта</h2>
+
+        <p class="subtitle">
+            За годы работы мы заслужили доверие клиентов благодаря
+            высокому качеству услуг, вниманию к деталям и постоянному развитию.
+            Каждый гость получает профессиональный подход и сервис,
+            соответствующий высоким стандартам современной индустрии красоты.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="contact">
+
+    <div class="container">
+
+        <h2 class="title">Контакты</h2>
+
+        <p>📍 Караганда, ул. Таттимбета, 19/14</p>
+
+        <p>📞 +7 708 821 9295</p>
+
+        <p>📷 Instagram: @sayakukola_krg</p>
+
+        <a href="https://wa.me/77088219295" class="btn">
+            Записаться в WhatsApp
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 SAYA KUKOLA. Все права защищены.
+</footer>
+
+</body>
+</html>
